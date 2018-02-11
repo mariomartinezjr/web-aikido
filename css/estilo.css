@@ -1,441 +1,118 @@
-body{
 
-	margin:0;
-	padding: 0;
-}
-
- a:link {
-
-	color: #ffffff;
-}
-
-a:visited{
-
-color: #ffffff;
-
-}
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
 
-.topo {
+#logo {
 
-	background-color: #353535;
-	height: 28px;
-	position: fixed;
-	width: 100%;
-	
-}
-
-.topointerior {
-
-
-	color: #ffffff;
-	width: 100%;
-	margin: auto;
-}
-
-.logomarca {
-    
-    
-    width: 400px;
-	height: 28px;
-    position: absolute;
-    text-align: right;
-    margin-top: 2px; 
-    margin-right: 100px;
-    margin-left: 800px;
-
-}
-
-.logomarca a {
-
-	float: right;
-}
-
-.logomarca input {
-
-	float: right;
-}
-
-
-.logomarca img {
-
-	margin-right: 3px;
-}
-
-.menu {
-
-	width: 100%;
+	width:  200px;
+	height: 200px;
 	float: left;
-	margin-left: 200px;
+	margin-top: 0;
 }
 
-.menu ul,
-.menu li {
-     margin: 0;
-	 padding: 0;
-    list-style: none;
-}
+#logo-mini{
 
-.menu li {
+    width:  100px;
+	height: 100px;
 	float: left;
-	padding-left: 5px;
-    padding-right: 5px;
-    line-height: 30px;
-    font-size: 14px;
-}
-
-.menu li:hover{
-	background-color: #347aba;
-}
-
-
-.menur {
-
-	
-	float: left;
-	margin-left: 150px;
-}
-
-.menur ul,
-.menur li {
-     margin: 0;
-	 padding: 0;
-    list-style: none;
 
 }
 
-.menur li {
-	float: left;
-	padding-left: 5px;
-    padding-right: 5px;
-    line-height: 30px;
-    font-size: 14px;
-}
+#rodape{
 
-.menur li:hover{
-	background-color: #347aba;
-}
-
-
-.banner {
-
-    height: 250px;
-    background-color: #347aba;
-   
-
-
-}
-
-
-.bannerinterior {
-
-	width: 1000px;
-	margin: auto;
-
-}
-
-	.banneresquerda {
-		float: right;
-		margin-right: 440px;
-		
-
-
-	}
-
-	.bannerimg {
-		float: right;
-		width: 400px;
-	    height: 223px;
-	    
-	    margin-top: -114px;
-
-	}
-
-	.bannerimg img {
-
-	width: 600px;
-	height: 223px;
-	float: right;
-
-
-	}
-
-	.bannerdireita {
-		float: left;
-
-		
-	}
-
-   .bannerdireita img {
-
-   	width: 200px;
-   	height: 200px;
-   	margin-top: 35px;
-   	margin-left: : 55px;
-   }
-.frase1 {
-	    font-size: 48px;
-		color: #ffffff;
-		margin-top: 60px;
-		
-}
-
-.frase2 {
-	
-	font-size: 20px;
-	color: #ffffff;
-}
-
-.conteudointerno {
-	width: 100%;
-	height: 500px;
-	margin: auto;
-}
-
-
-.fotos img {
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-.rodape  {
-	float: left;
-	background-color: #347aba;
-	height: 380px;
-	text-align: center;
-	color: #ffffff;
-	width: 100%
-	
-	
-}
-
-.mapa {
-
-float: left;
-margin: 5px;
-
-
-
-}
-
-
-.info{
-
-margin-left: 20px;
-
-}
-
-.info ul {
-
-list-style: none;
-text-align: left;
-float: left;
-
-}
-
-
-.dvtopo{
-
-	float: right;
-
-}
-
-.vtopo {
-
-position: absolute;
-margin-left: -450px;
-margin-top: -39px;
-
-}
-
-.info img{
-
-	float: left;
-	padding-right: 10px;
-}
-
-.linha-vertical {
-	float: left;
-	margin-left: 10px;
-  height: 320px;/*Altura da linha*/
-  border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
-}
-.linha-vertical2 {
-	float: left;
-	margin-left: 10px;
-  height: 320px;/*Altura da linha*/
-  border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
-}
-
-.fim {
-
-	float: left;
-	height: 90px;
-	width: 100%;
-    margin-top: -30px;
-	background-color: #347aba;
-}
-
-
-.slideshow {
-	height: 600px;
-	background-color: #CCC;
-	overflow: hidden;
-	margin-bottom:20px;
-}
-
-.slideshowarea {
-    background-color: #DDD;
-	height: 600px;
-	width: 100000px;
-	transition: all 3s;
-
-}
-
-.slide {
-	height: 600px;
-	float: left;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.slideinfo {
-	height: 70px;
-	background-image: url('../images/slideshow_bg.png');
-	background-size: auto 70px;  
-	margin-top: 400px;
-}
-
-.slideinfo_titulo {
-	font-size: 20px;
+	background-color: #337AB7;
 	color: white;
 	font-weight: bold;
-	padding-top: 15px;
-	padding-left: 10px;
 }
 
-.slideinfo_subtitulo {
-	font-size: 13px;
-	color: white;
-	padding-left: 10px;
+/*.panel-group{
+
+	margin-left: 15px;
 }
-
-.slidebolinhas {
-
-	position: absolute;
-	width: 200px;
-	height: 20px;
+*/
+.banner {
 	
+    height: 250px;
+    width: 948px;
+    background-color: #347aba;
+    /*background-image: url("../imagens/jesien-gory-galezie-pagorek-drzewo.jpg");*/
+    background-image: url("../imagens/topo.jpg");
+    background-position: center;
+	background-size: cover;
+   	float: left;
+   	margin-left: -15px;
+
+
 }
 
-.bolinha {
-	width: 20px;
-	height: 20px;
+#img-tab1 {
+
+	margin-left: 250px;
+}
+
+#img-tab3 {
+
+margin-left: 350px;
+
+height: 300px;
+
+}
+
+.duas-colunas {
+-webkit-column-count: 2; /* Chrome, Safari, Opera */
+-moz-column-count: 2; /* Firefox */
+column-count: 2;
+-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+-moz-column-gap: 40px; /* Firefox */
+ column-gap: 40px;
+-webkit-column-rule: 1px solid #cccccc; /* Chrome, Safari, Opera */
+-moz-column-rule: 1px solid #cccccc; /* Firefox */
+column-rule: 1px solid #cccccc;
+ -webkit-column-span: all; /* Chrome, Safari, Opera */
+ column-span: all;
+-webkit-column-width: ;/* Chrome, Safari, Opera */
+-moz-column-width: ;/* Firefox */
+column-width: ;
+margin: 30px;
+}
+
+#myCarousel {
+
 	float: left;
-	margin-right: 5px;
-	cursor:pointer;
-	background-color: #CCC;
-	border-radius: 10px;
+	margin-left: -15px;
+	width: 948px;
 
 }
 
-.dinamico {
-	width: 800px;
-	margin-top: 105px;
+#myCarousel img {
+	margin: auto;
+	 height: 600px;
+	 width:948px;
+
+}
+
+.prog img {
+
+	border-width: 1px;
 	border-style: solid;
-    border-width: 1px;
-    border-radius: 40px;
-    padding: 50px;
-	margin-left: 308px;
-	text-align: justify;
-	margin-bottom: 5px;
 	
-	
-}
+	align-items: center;
 
-.dinamico2{
-	width: 800px;
-	margin-top: 10px;
-	border-style: solid;
-    border-width: 1px;
-    border-radius: 40px;
-    padding: 50px;
-	margin-left: 308px;
-	text-align: justify;
-	margin-bottom: 5px;
-}
-
-.dinamico3{
-	width: 800px;
-	height: 500px;
-	margin-top: 10px;
-	border-style: solid;
-    border-width: 1px;
-    border-radius: 40px;
-    padding: 50px;
-	margin-left: 308px;
-	text-align: justify;
-	margin-bottom: 5px;
-}
-
-
-
-.dinamico4{
-	width: 800px;
-	margin-top: 10px;
-	border-style: solid;
-    border-width: 1px;
-    border-radius: 40px;
-    padding: 50px;
-	margin-left: 308px;
-	text-align: justify;
-	margin-bottom: 5px;
-}
-
-.dinamico5{
-	width: 800px;
-	margin-top: 10px;
-	border-style: solid;
-    border-width: 1px;
-    border-radius: 40px;
-    padding: 50px;
-	margin-left: 308px;
-	text-align: justify;
-	margin-bottom: 5px;
-}
-
-.dinamico6{
-	width: 800px;
-	margin-top: 10px;
-	border-style: solid;
-    border-width: 1px;
-    border-radius: 40px;
-    padding: 50px;
-	margin-left: 308px;
-	text-align: justify;
-	margin-bottom: 5px;
 }
 
 .texto {
 	
 
 	text-align: justify; 
-	font-family: Belgrano, serif;
+	margin: 30px;
 
-	
 }
 
-.texto p {
-    
-}
+.texto li {
 
-.texto a:link{
-	color: blue;
-}
-
-.texto a:visited{
-	color: red;
+	padding: 20px;
+	font-weight: bold;
 }
 
 .texto img {
@@ -444,7 +121,6 @@ margin-top: -39px;
 	height: 100px;
 
 }
-
 #dojo13  {
 
 height: 300px;
@@ -457,32 +133,85 @@ border-radius: 30px;
 .ifoto{
 	
 	float: left;
-	width: 300px;
+	width: 305px;
+	border-radius: 80px;
+	
+
+}
+.legenda-video p{
+margin-left: 350px;
+margin-top: 10px;
+}
+
+#video {
+
+	margin-left: 130px;
 }
 .ifoto img{
-
-	margin-top: 10px;
-	height: 300px;
+	
+	margin-left: 40px;
+	margin-top: 20px;
+	height: 358px;
 	width: 180px;
 
 }
+#dojo-interior {
+
+	width: 800px;
+	height: 400px;
+	margin-left: 60px;
+}
+
+.ul-dojo li {
+
+	padding: 10px;
+}
+
+#prog{
+
+	margin-left: 50px;
+}
+
+#arni{
+	margin-left: -20px;
+	margin-top: 0;
+	width: 300px; 
+	height:450px;
+
+}
+#semi-dani {
+
+	width: 500px;
+	height: 800px;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
 .idesc{
 
 	float: left;
-	width: 400px;
-	margin-top: 30px;
+	width: 550px;
+	margin-top: -10px;
+	padding: 10px;
+	text-align: justify;
 }
 
 .icaixa{
+	
 	width: 100%;
-	height: 1950px;
+	
 	
 }
 
-.caixa{
-	width: 100%;
-	height: 300px;
-	
+.icaixa pre{
+
+
+}
+
+#menu a{
+
+text-decoration: none;
+
 }
 
 .hri{
@@ -537,6 +266,7 @@ border-radius: 30px;
 	width: 200px;
 	height: 300px;
 	padding-right: 10px;
+	border-radius: 10px;
 }
 
 .subtitulo {
@@ -546,6 +276,3 @@ border-radius: 30px;
 	margin-top:0;
 }
 
-.topobusca {
-	border-radius: 5px;
-}

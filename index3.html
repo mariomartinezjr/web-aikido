@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Aikido Campo Grande</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -17,9 +17,17 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+  <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+  <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
 
-  <link rel="stylesheet" type="text/css" href="css/estilo4.css" />
 
+  <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+
+  <script type="text/javascript" src="js/script.js" ></script>
+
+<script>
+  new WOW().init();
+</script>
 <body class="w3-content" style="max-width:1200px">
 
 <!-- Sidebar/menu -->
@@ -64,7 +72,7 @@
   <header class="w3-container w3-xlarge">
     
     <p class="w3-right">
-     <div class="banner">
+     <div class="banner"></div>
 
   	
       
@@ -87,8 +95,8 @@
       <div class="item active">
         <img src="imagens/slide1.jpg"  >
         <div class="carousel-caption">
-          <h3><a href=""></a>  teste</h3>
-          <p>teste teste teste</p>
+          <h3><a href=""></a>XX Seminário e exame de Faixas</h3>
+          
           
 
         </div>
@@ -96,10 +104,18 @@
 
       <div class="item">
         <img src="imagens/slide2.jpg" >
+          <div class="carousel-caption">
+          <h3><a href=""></a>Graduação Dos Instrutores</h3>
+          
+        </div>
       </div>
     
       <div class="item">
-        <img src="imagens/slide1.jpg"  >
+        <img src="imagens/slide4.jpg">
+          <div class="carousel-caption">
+          <h3><a href=""></a>Treino Feminino!</h3>
+        
+        </div>
       </div>
     </div>
 
@@ -122,24 +138,48 @@
   <div class="panel-group" id="home">
    
     <div class="panel panel-primary">
-      <div class="panel-heading">Titulo</div>
+      <div class="panel-heading"><b><h1>História do Aikido</h1></b></div>
       <div class="panel-body">
+      
+
+   <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#nav-hist">História</a></li>
+    <li><a data-toggle="tab" href="#nav-sensei">Sensei</a></li>
+    <li><a data-toggle="tab" href="#nav-kawai">Kawai Sensei</a></li>
+    <li><a data-toggle="tab" href="#nav-reigi">Reigi(Etiqueta)</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="nav-hist" class="tab-pane fade in active">
+      
+     
       <div class="texto">
-        <h3>AS ORIGENS</h3>
-  <p>O cultivo do REIJI (etiqueta) no seio do AIKIDO é algo que chama a atenção de todos, fruto da herança Samurai 
-  (a palavra vem de “saburau”, que significa aquele que serve), 
+      <div class="duas-colunas">
+         
+         <p>O cultivo do <kbd>REIJI</kbd> (etiqueta) no seio do <abbr title="A Arte da Paz!">AIKIDO</abbr> é algo que chama a atenção de todos, fruto da herança Samurai 
+  (a palavra vem de <b>“saburau”</b>, que significa aquele que serve), 
   muito embora seja uma arte marcial jovem tem suas raízes fixadas na tradição da cultura Japonesa. 
   A classe Samurai nasceu na era do Japão feudal, eram guerreiros que lutavam por seus 
-  senhores e seguiam um rígido código de conduta, não escrito, chamado de “Bushido”. Como 
+  senhores e seguiam um rígido código de conduta, não escrito, chamado de <kbd>“Bushido”</kbd>. Como 
   crescessem constantemente os conflitos pela posse de terras, cada vez mais aprimoravam-se as técnicas
   de combate e como várias eram as famílias feudais, várias também eram as técnicas desenvolvidas
    nos feudos, dando ensejo ao surgimento de diversos sistemas e estilos de luta o que como 
-   conseqüência fez surgir as chamadas escolas ou RYU, um desses sistemas era o DAITORYU AIKIJUJUTSU.</p> 
+   conseqüência fez surgir as chamadas escolas ou <mark>RYU</mark>, um desses sistemas era o <mark>DAITORYU AIKIJUJUTSU</mark>.</p> 
 
-  <h3>O SENSEI MORIHEI UESHIBA</h3>
-  <p>Morihei Ueshiba nascido em 14 de Dezembro de 1883 em Tanabe, uma pequena vila
+        </div>
+        </div>
+   <div class="wow bounceInUp" data-wow-delay="0.2s">
+   <img id="img-tab1" class="img-fluid img-circle" src="imagens/aikiimag.jpg">
+ </div>
+
+    </div>
+    <div id="nav-sensei" class="tab-pane fade">
+       <div class="texto">
+      <div class="duas-colunas">
+    
+  <p><b>Morihei Ueshiba</b> nascido em 14 de Dezembro de 1883 em Tanabe, uma pequena vila
   Japonesa de pescadores e camponeses, no seio de uma família bastante religiosa que
-  professava o Budismo Bukyo-Shingon-Shiu, seu nome “Morihei” que significa “PAZ
+  professava o Budismo Bukyo-Shingon-Shiu, seu nome <abbr title="O Fundador">“Morihei”</abbr> que significa “PAZ
   ABUNDANTE” chega a ser profética.
   Em 1898 Morihei deixou sua casa e viajou para Tóquio onde começou a instruir-se
   em artes marciais principalmente Yagyu Shinkage Ryu (Estilo de Espada), Hozoin (Estilo de
@@ -153,7 +193,7 @@
   fato de sua vida sempre estar ligada à natureza, principalmente agricultura, atividade que por
   sinal, desempenhou até o fim de seus dias. Em certa época de sua vida conheceu Mestre
   Sokaku Takeda, último representante da família Takeda detentora do conhecimento relativo
-  ao DAITORYU AIKIJUJUTSU que foi decisivo para o nascimento futuro do AIKIDO. </p>
+  ao DAITORYU AIKIJUJUTSU que foi decisivo para o nascimento futuro do <kbd>AIKIDO</kbd>. </p>
 
   <p>Em 1919 Morihei Ueshiba tomou conhecimento que seu pai encontrava-se em grave
   estado de saúde tendo então viajado à Tanabe para encontrá-lo, quando ao passar por Ayabe
@@ -177,16 +217,16 @@
   mais conveniente, pois poderia sugerir que sua arte seria um ramo de uma arte chamada
   Kobukan, foi aí que surgiu o termo AIKIDO, passando, assim, a ser conhecida a partir de
   então:</p> 
-  <h3>
-  AI: Harmonia
-  KI: Energia Universal
-  DO: Via, Meio, Caminho.
-  </h3>
-  <p>Até hoje Morihei Ueshiba é lembrado como “O Sensei” que significa “Grande
+ <pre> 
+  <kbd>AI:</kbd> <b>Harmonia</b>
+  <kbd>KI:</kbd> <b>Energia Universal</b>
+  <kbd>DO:</kbd> <b>Via, Meio, Caminho.</b>
+  </pre>
+  <p>Até hoje Morihei Ueshiba é lembrado como <kbd>“O Sensei”</kbd> que significa “Grande
   Mestre” é o KAISO (fundador) e primeiro DOSHU (dono do estilo). Em 26 de Abril de 1969
   O SENSEI Morihei Ueshiba concluiu sua missão na terra e deixou o legado do AIKIDO
-  para seu filho KISHOMARU UESHIBA que foi o segundo Doshu.
-  Hoje o AIKIDO é uma respeitada arte marcial aonde sua sede mundial, a Fundação
+  para seu filho <b>KISHOMARU UESHIBA</b> que foi o segundo Doshu.
+  Hoje o <mark>AIKIDO</mark> é uma respeitada arte marcial aonde sua sede mundial, a Fundação
   AIKIKAI, localiza-se em Wakamatsu-Cho, Shinjuku-KJ em Tóquio no Japão é presidida
   pelo neto de O Sensei o atual Doshu MORITERU UESHIBA com centenas de Dojos
   afiliados espalhados em todo o mundo e milhares de praticantes. </p>
@@ -206,95 +246,214 @@
   “No Aikido, quando acontece de algum aluno se esquecer dessa premissa e cometer o
   Uraguiri (ingratidão) intitulando-se professor em outras searas, dizemos que o mesmo está
   divulgando o Djado, ou somente técnicas de luta”. </p>
-</div>
-      </div>
+
     </div>
+    </div>
+    </div>
+    <div id="nav-kawai" class="tab-pane fade">
+      
+ <p>
+  <div class="texto">
+    <div class="duas-colunas">
+<kbd>Kawai Sensei</kbd> como carinhosa e respeitosamente era chamado <b>Reishin Kawai</b> (nome
+de nascença Munenori Kawai), nasceu no Japão em 28/02/1931. Natural da província de
+Shimane,Yassugui-shi.
+ Faixa Preta <mark>8º Grau</mark>, foi representante do Hombu-Dojo no Brasil e país da América
+do Sul introduziu e consolidou o Aikido no Brasil e empenhou-se em tornar melhor a vida das
+pessoas através desta arte. É a própria história da introdução, divulgação e desenvolvimento
+do Aikido no Brasil e paralelamente, fez parte do grupo de pessoas que popularizam a
+Medicina Oriental neste País.
+ Em 27 de janeiro de 2010, Kawai Sensei deixou esse mundo tendo lindamente
+cumprido sua missão de nos ensinar o caminho do amor que leva a Deus através do AIKIDO 
+</p></div></div>
+
+<div class="wow bounceInUp" data-wow-delay="0.2s">
+ <img id="img-tab3" class="img-responsive img-rounded" src="imagens/kawaisensei-grande.jpg">
+</div>
+    </div>
+    <div id="nav-reigi" class="tab-pane fade">
+      
+<div class="texto">
+<p>Bem mais do que a prática de algumas regras de etiqueta, o <kbd>REIGI</kbd> é na verdade a
+prática do burilar do próprio caráter, pois é através da prática da cortesia exercitada no
+REIGI, que dentre tantas coisas aprendemos a ser menos arrogantes e mais humildes, menos
+egoístas e mais sensíveis às necessidades do próximo. Portanto vejamos a seguir algumas das
+regras de etiqueta praticadas no AIKIDO:
+
+
+<ol>
+<li>Faça REI ao KAMISSAMÁ e ao SENSEI sempre ao entrar e ao sair do TATAME na
+posição de SEIZA (ZA REI);</li>
+<li>Procure subir sempre ao TATAME antes do início da aula e evite deixá-lo antes de seu
+término, caso o faça, ao subir diga sempre SUMIMASEN SENSEI ONEGAISHIMASSU;</li>
+<li>Não discuta ou contra-argumente com o SENSEI;</li>
+<li>É falta de etiqueta recusar-se a treinar quando convidado, mesmo que o convite parta de
+um KORRAI (aluno mais novo);</li>
+<li>Nunca esquecer o sentido de respeito e gratidão aos pais, mestres, amigos e companheiros.
+Em especial manter vivo o respeito do KAISO MORIHEI UESHIBA;</li>
+<li>Mantenha a higiene pessoal e do seu DOGI, respeite seu uniforme de treinamento;</li>
+<li>Ao treinar, pratique a humildade. Tenha iniciativa de convidar seus parceiros à prática,
+dizendo sempre ONEGAISHIMASSU, não espere que venham chamá-lo;</li>
+<li>Fale o mínimo possível Durante o treino;</li>
+<li>Quando o SENSEI estiver demonstrando alguma técnica, fique em SEIZA ou
+HIZAOKUMÔ, em silêncio e atento, depois faça ZAREI e comece a treinar, caso não haja
+compreendido bem, observe os outros, execute o pouco que entendeu e espere ser corrigido
+pelo SENSEI;</li>
+<li>A contribuição (mensalidade) efetuada pelo aluno é uma pequena forma de demonstrar
+gratidão ao SENSEI por seus ensinamentos, portanto, não deve ser nunca encarada como
+prestação de serviço, já que os ensinamentos recebidos são inestimáveis;</li>
+<li>Caso o aluno necessite ausentar-se dos treinos por período igual ou superior a um mês, ao
+retornar deverá solicitar permissão ao SENSEI para reiniciá-los, e caso seja Graduado,
+voltar a treinar com a FAIXA BRANCA, só voltando a utilizar sua faixa Graduada após
+autorização do mesmo;</li>
+<li>Ao entrar no Dojo lembre-se de desligar o celular;</li>
+<li>A limpeza é uma oração de agradecimento e respeito, é dever de todos zelarem pela
+limpeza do Dojo e principalmente do coração;</li>
+<li>É um dever moral de todos usarem as técnicas para fins pacíficos visando sempre
+construir;</li>
+<li>Respeite os alunos SENPAI (veteranos), jamais discuta se as técnicas estão erradas ou
+não;</li>
+<li>Se você não é YUDANSHA (Faixa-Preta) não corrija ninguém;</li>
+<li>Não converse durante a aula, AIKIDO é experiência;</li>
+<li>Lembrar que o tratamento dado aos 1º Kyu (Faixa Marrom) será o nome seguido do
+termo SEMPAI, sendo tal tratamento dispensado também aos YUDANSHA até 2º Dan
+desde que não possuam cargo de Instrutor, e não desempenhe atividade de ensino.</li>
+<li>Ter sempre o sentimento de IBI SHOSHIN (Espírito de iniciante). </li>
+</ol>
+    
+
+</div>
+  
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+ 
 
     <div class="panel panel-primary" id="instrutores">
-      <div class="panel-heading"><b>Instrutores</b></div>
+      <div class="panel-heading"><b><h1>Instrutores</b></h1></div>
       <div class="panel-body">
 
 
         <div class="texto">
   
-    O Heiwa Dojo Campo Grande Foi Fundado em xxxx e é dirigido pelo Sensei Arnaldo Mendonça desde xxxxx .<br><br><br><br>
+    <p>O instrutor responsável pelos Heiwa Dojo é Sensei Arnaldo Mendonça (Sandan - Aikikai) e a supervisão técnica de Sensei Paulo Candéa (4º Dan - Aikikai) 
+      da Associação Reishin Kawai - Aikido Recife, PE. Nosso Dojo está vinculado à União Sulamericana da Arte AIKIDO, fundada pelo Shihan Reishin Kawai, introdutor do Aikido no Brasil.
+</p>
+<br><br><br><br>
   <div class="icaixa">
       
 
       <div class="ifoto">
-        <img src="imagens/arni.png">
-
-      </div>
-
+        <div class="wow bounceInLeft" data-wow-delay="0.2s">
+        <pre><img id="arni" src="imagens/arni.png">
+        </div>
+      </div></pre>
+<div class="wow bounceInRight" data-wow-delay="0.2s">
       <div class="idesc">
         
-          <strong>Nome:</strong> Arnaldo Mendonça<br>
-          <strong>Data de nascimento:</strong> xxxxx<br>
-          <strong>Inicio dos Treinos:</strong> xxxxx<br>
-          <strong>Graduação:</strong> Sandan<br><br>
+          <pre>
 
-          O sensei Arnaldo é reposnavel pelo Heiwa Dojo em Campo Grande é formando em xxxx treina 
-          desde fez xxxx é conhecido por xxxx . 
 
-        
+<strong>Nome: </strong>Arnaldo Mendonça Júnior
+<strong>Idade: </strong>45
+<strong>Inicio dos Treinos: </strong>2005
+<strong>Graduação: </strong><kbd>Sandan</kbd>
+
+
+          
+<p>      O sensei Arnaldo iniciou os treinos de Aikido em setembro/2005,
+sob tutela de Sensei Paulo Candéa (atualmente 4 Dan Aikikai) em 
+Recife/PE.
+
+Formou-se <mark>3 Dan</mark> em dezembro/2016. Iniciou o grupo do 
+Heiwa Aikidojô em 2011 quando veio trabalhar na capital sul
+matogrossense.  Formado em Ciências Contábeis, é Policial Federal 
+e lotado na Superintendência Regional de Polícia Federal em 
+Campo Grande/MS.
+
+
+          É o instrutor responsável (<mark>Fukushidoin</mark>) do Heiwa Aikidojô.
+Também é instrutor de Defesa Pessoal Policial (DPP) e realiza  treinos
+mensais com os alunos que são também policiais e profissionais da 
+segurança pública convidados.</p>
+</pre>
 
       </div>
-
-
-        
-
+    </div>
 
         <div class="hri"><hr></div>
 
 
         <div class="ifoto">
-        <img src="imagens/marc.png">
-
+          <div class="wow bounceInLeft" data-wow-delay="0.5s">
+        <pre><img src="imagens/marc.png">
       </div>
+      </div></pre>
 
+<div class="wow bounceInRight" data-wow-delay="0.5s">
       <div class="idesc">
-        <p>
-          <strong>Nome:</strong> Marcos Roberto Severo Rosa<br>
-          <strong>Idade</strong> xxxxx<br>
-          <strong>Inicio dos Treinos:</strong> 2009<br>
-          <strong>Graduação:</strong> Shodan<br><br>
+       <pre> 
+<strong>Nome: </strong>Marcos Roberto Severo Rosa
+<strong>Idade: </strong>xxxxx
+<strong>Inicio dos Treinos: </strong>2009
+<strong>Graduação: </strong> <kbd>Shodan</kbd>
 
-          Pastor, Bacharel em Teologia, com especialização em Exegese (Grego Koinê), pelo Seminário Teológico 
-          Batista do Oeste do Brasil.Técnico Judiciário do TRT 24ª Região. Shodan em Aikido em nove anos de treino.
-          Sandan de Karatê Shotokan pela academia União dos Sargentos, com o Shihan 6º Dan, Antonio de Moura ( Toninho) com quarenta anos de treino. Árbitro da federação de Karatê MS.Instrutor de Tonfa, BET (Bastão Expansivo Tático), Algemação e abordagem tática pela empresa SOTAI de São Paulo.
+Pastor, Bacharel em Teologia, com especialização em Exegese 
+(Grego Koinê), pelo Seminário Teológico Batista do Oeste do 
+Brasil.Técnico Judiciário do TRT 24ª Região. Shodan em Aikido 
+em nove anos de treino. Sandan de Karatê Shotokan pela academia
+União dos Sargentos, com o Shihan 6º Dan, Antonio de Moura 
+(Toninho) com quarenta anos de treino. Árbitro da federação de 
+Karatê MS.Instrutor de Tonfa, BET (Bastão Expansivo Tático), 
+Algemação e abordagem tática pela empresa SOTAI de São Paulo.
 
-        </p>
 
+
+
+
+
+
+        </pre>
+</div>
       </div>
-
-
-       
-
 
         <div class="hri"><hr></div>
 
 
         <div class="ifoto">
-        <img src="imagens/will.png">
-
+          <div class="wow bounceInLeft" data-wow-delay="0.10s">
+        <pre><img src="imagens/will.png">
       </div>
+      </div></pre>
 
+  <div class="wow bounceRight" data-wow-delay="0.10s">
       <div class="idesc">
-        <p>
-          <strong>Sensei:</strong> Willians Alves de Souza<br>
-          <strong>Idade:</strong> 39 Anos<br>
-          <strong>Inicio dos Treinos:</strong> 2009<br>
-          <strong>Graduação:</strong> Shodan<br><br>
+        <pre><p>
+<strong>Sensei: </strong>Willians Alves de Souza
+<strong>Idade: </strong>39 Anos
+<strong>Inicio dos Treinos: </strong>2009
+ <strong>Graduação: </strong> <kbd>Shodan</kbd>
 
-          Bancário,
-          Formado em administração de empresas
-          Iniciando em 2009 no aikido e graduado shodan em 2016.
-          Atualmente instrutor de treinos para iniciantes e graduados.
 
-        </p>
+Bancário, Formado em administração de empresas
+Iniciando em 2009 no aikido e graduado shodan em 2016.
+Atualmente instrutor de treinos para iniciantes e graduados.
+
+
+
+
+
+
+
+
+
+
+        </p></pre>
 
       </div>
-
+</div>
 
     </div>
 
@@ -305,45 +464,54 @@
   </div>
 
       <div class="panel panel-primary" id="noticias">
-      <div class="panel-heading">Noticias</div>
+      <div class="panel-heading"><b><h1>Notícias</h1></b></div>
       <div class="panel-body">
 
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#menu0">Noticia 1</a></li>
-    <li><a data-toggle="tab" href="#menu1">Noticia 2</a></li>
-    <li><a data-toggle="tab" href="#menu2">Noticia 3</a></li>
-    <li><a data-toggle="tab" href="#menu3">Noticia 4</a></li>
+    <li><a data-toggle="tab" href="#menu1">Notícia 2</a></li>
+    <li><a data-toggle="tab" href="#menu2">Notícia 3</a></li>
+    <li><a data-toggle="tab" href="#menu3">Notícia 4</a></li>
   </ul>
 
   <div class="tab-content">
     <div id="menu0" class="tab-pane fade in active">
-      <h3>Seminario Sensei Daniel Ono</h3>
-      <h5>21/01/2017 - 10:26</h5>
+      <blockquote><h3>Seminário Sensei Daniel Ono</h3>
+      <footer><h5>21/01/2017 - 10:26</h5></footer>
+    </blockquote>
       <div class="texto">
       <p>
-          <img id="seminario" src="imagens/daniel.jpg" width="300" height="300"><hr> Em abril contaremos com presença do sensei Daniel Ono para realização de um seminário nos dias 03 e 04 a ser realizado no Heiwa Dojo
+          
+         
+          Em abril contaremos com presença do sensei Daniel Ono para realização de um seminário nos dias 03 e 04 a ser realizado no Heiwa Dojo.
           O Sensei Daniel é Godan e é instrutor na academia xxx em xxx e treina de desde.
           É sempre muito importante aproveitar essas excelentes oportunidades para treinar e adquirir mais conhecimentos visando sempre o
           aprimoramento e aperfeiçoamento.
           Será uma grande oportunidade para estudar mais profundamente técnicas avançadas em com muito shugyo.
           Convidamos a todos a prestigiar esse grande evento, venham e participem
 
+          </p>
 
-        </p>
+       
+
+
         </div>
-   <br><br><br><br><br><br><hr> 
+        <div data-wow-delay="1s" class="wow bounceInUp center">
+         <img  id="semi-dani" src="imagens/semi-daniel.jpg" class="img-fluid">
+       </div>
+   <br><br><hr> 
     </div>
     <div id="menu1" class="tab-pane fade">
-      <h3>Programação 2018</h3>
-      <p><img  src="imagens/prog2018.jpg" class="img-fluid"></p>
+      
+      
     </div>
     <div id="menu2" class="tab-pane fade">
-      <h3>Menu 2</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+      
+     
     </div>
     <div id="menu3" class="tab-pane fade">
-      <h3>Menu 3</h3>
-      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+     
+      
     </div>
   </div>
 
@@ -352,102 +520,246 @@
   </div>
 
     <div class="panel panel-primary" id="programacao">
-      <div class="panel-heading">Titulo</div>
+      <div class="panel-heading"><b><h1>Programação Anual</h1></b></div>
       <div class="panel-body">
-          <p><img  src="imagens/prog2018.jpg" class="img-fluid"></p>
+          <p><img  id="prog" src="imagens/prog2018.jpg" class="img-fluid"></p>
       </div>
    
   </div>
 
     <div class="panel panel-primary" id="down">
-      <div class="panel-heading">Titulo</div>
+      <div class="panel-heading"><b><h1>Downloads</h1></b></div>
       <div class="panel-body">
 
             <div class="texto">
-      
-      <p class="titulossec">Manual do aluno:</p>
-      <div class="caixa">
-      
-      <div class="imgdown">
-      <img src="imagens/manual.png" >
-       </div>
-         <div class="desc">
-          <p>O Manual do aluno contem uma compilação de informações sobre o aikido e suas tecnicas com varias obervações a cerca dessa maravilhosa arte Marcial!</p>
-         </div>
-         <div class="dowarq">
-          
-          <a href="../arquivos/MANUAL DO ALUNO.rar">Download</a>
-           <hr>
-         </div>
-         
-         
-         </div>
+      <table class="table table-striped">
+      <tr>
+      <th>Nome</th>
+      <th>Descrição</th>
+      <th>link</th>
 
+    </tr>
 
-    </div>
+    <tr>
+      <td>Manual do aluno</td>
+      <td>O Manual do aluno contem uma compilação de informações sobre o aikido <br>
+      e suas tecnicas com varias obervações a cerca dessa maravilhosa arte Marcial!</td>
+      <td><a href="../arquivos/MANUAL DO ALUNO.rar">Download</a></td>
+    </tr>
+      </table>
+
 
       </div>
-   
   </div>
+</div>
+  
 
     <div class="panel panel-primary" id="dojos">
-      <div class="panel-heading">Titulo</div>
+      <div class="panel-heading"><b><h1>DOJOS</h1></b></p></div>
       <div class="panel-body">
 
 
-  <div class="texto">
-    
-  <p class="titulossec">DOJOS:<br></p>
-  <p> Em Campo Grande os interessados podem encontrar os Dojos Heiwa em dois locais  :<br><br>
-
-  No Centro da Cidade na Rua 13 de maio, 4145 - Campo Grande - MS com a Travessa Cel Mario Pinto Peixoto.
-  Contamos com um amplo espaço equipado com:
-  <ul>
-  <li>Vestiários Masculino e Feminino</li>
-  <li>Recepção</li> 
-  <li>Bebedouros</li>
-  <li>Sofás para quem tiver interesse em nos visitar  e assistir aos treinos.</li>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#nav-dojo13">Dojo Central</a></li>
+    <li><a data-toggle="tab" href="#nav-histo">Patrimônio Histórico</a></li>
+    <li><a data-toggle="tab" href="#nav-ufms">Dojo UFMS</a></li>
+    <li><a data-toggle="tab" href="#nav-hor">Horários</a></li>
   </ul>
 
-  <p>Ainda contamos com um tatame de 126 metros de área com espessura de 40mm para garantir a melhor experiência durante as praticas
-  seja no taijutso técnicas desarmadas ou kenjutso utilizando armas tais como Bokken(espada) , Jo(bastão) , Tantos(facas) , kodashis e Shinais.
-  Possuímos convênios com o sindicato dos policiais federais, policiais rodoviários federais e oficiais da pm.
-    </p>
-  ---------------------------------------
+  <div class="tab-content">
+    <div id="nav-dojo13" class="tab-pane fade in active">
+      <div class="texto">
+    
+  
+  <p> Em Campo Grande os interessados podem encontrar os <abbr title="DO = Local , JO= do caminho"> Dojos</abbr> Heiwa em dois locais  :
 
-  O início da Rua 13 de Maio, na altura do bairro São Francisco, exibe vários galpões imensos que há muitos anos eram considerados locais com papel importante na economia da cidade. Com o tempo, eles foram perdendo função e alguns acabaram demolidos e deram espaço a novas construções. Mas no início deste ano, um desses locais históricos teve valor reconhecido e foi revitalizado, ganhando nova cara e nova utilidade.
-
-  Fechado desde o início da década de 1980, o galpão foi cedido a um grupo de praticantes de Aikido, que se juntaram para colocar a mão na massa e deixar o prédio com cara de novo. Logo na fachada é possível ver o antes e depois significante.
-
-  A frente do galpão estava inteiramente pichada e com aspecto de abandono. Mas bastou uma lixadeira e algumas pessoas com braços fortes e disposição para que cada pedacinho do paredão de tijolos, agora à vista, fosse restaurado.
-
-  "Fizemos questão de manter o estilo rústico e preservar a originalidade da obra, por isso que apenas lixamos os tijolos, não passamos nenhum produto a mais", garante Celso Farias, um dos voluntários na obra e também praticante de Aikido.
-
-  As duas portas de ferro que compõem a entrada do galpão também estavam bastante deterioradas e ganharam apenas uma pintura na mesma cor da tinta que já estava quando receberam o espaço. Depois de tudo pronto, a fachada ganhou símbolos do Aikido feitos em madeira e que foram pendurados nos tijolos. Detalhes que fizeram toda a diferença na nova cara do galpão.
-
-  "A ideia de preservar a arquitetura histórica tambem foi uma das preocupações, mantendo o elo com o passado", ressalta Fábio Yamasato, herdeiro do galpão.
-
-  A restauração começou em janeiro deste ano e a parte de dentro também ganhou um banho de tinta nas paredes que estavam encardidas por causa da sujeira. O piso vermelho, que estava coberto pela poeira, também foi limpo e pintado de cinza. O resto, como estrutura, madeiras do teto e telhas foram mantidos os originais.
-
-  História - O galpão foi cedido pela família de Fábio Yamasato, que é praticante do Aikido. "Meu avô chamava-se Yoshimatsu Yamasato. Ele veio do Japão muito jovem e começou a vida trabalhando na lavoura. Com o desenvolvimento da economia e dos negócios, em meados dos anos 1960, ele e seus três irmãos montaram um armazém que beneficiava arroz. Descascavam e ensacavam o grão para venda por atacado", conta Fábio.
-
-  Por volta dos anos 1980, também pelas mudanças econômicas, os negócios não iam bem e a família decidiu encerrar a empresa. Desde então, o antigo armazém, que fez história em Campo grande como tantos outros localizados na rua 13 de Maio, permaneceu fechado.
-
-  O avô de Fábio faleceu em 2014 e a família dele herdou o salão. "Em dezembro de 2016, conversando com os amigos que praticam Aikido e oferecemos o salão para instalação da nossa associação", explica Fábio.
-
-  O Aikido é uma arte marcial japonesa que mistura defesa pessoal com filosofia oriental da paz e equilíbrio. E a parceria da família de Fábio com a associação dos praticante da arte marcial é uma forma de homenagear o patriarca. "Na cultura japonesa, a lembrança, respeito e culto aos antepassados é muito presente. Então, acreditamos que a nova utilização do espaço é motivo de orgulho para meu avô, ele estaria muito feliz com este projeto se estivesse vivo".
+  No Centro da Cidade na Rua 13 de maio, 4145 - Campo Grande - MS com a Travessa Cel Mario Pinto Peixoto, sob Responsabilidade do <b>Sensei Arnaldo Mandonça 3º Dan</b>.
+  <p>Contamos com um amplo espaço equipado com:</p>
+  <div class="ul-dojo">
+  <ul >
+  <li >Vestiários Masculino e Feminino</li>
+  <li >Recepção</li> 
+  <li >Bebedouros</li>
+  <li >Sofás para quem tiver interesse em nos visitar  e assistir aos treinos.</li>
+  </ul>
+</div>
+  <p>Ainda contamos com um tatame de <b>126 metros</b> de área com espessura de <kbd>40mm</kbd> para garantir a melhor experiência durante as praticas
+  seja no taijutso técnicas desarmadas ou kenjutso utilizando armas tais como <abbr title="Espada">Bokken</abbr>, <abbr title="Bastão">Jo</abbr>, <abbr title="Faca">Tantos</abbr>, kodashis e Shinais.
+  Possuímos convênios com o Sindicato dos Policiais Federais, Policiais Rodoviários Federais e Oficiais da PM.
+  Caso queira assistir a um treino ou participar de uma aula sem compromisso, ligue e faça seu agendamento.
 
 
-  fonte : https://www.campograndenews.com.br/lado-b/arquitetura-23-08-2011-08/galpao-que-ha-decadas-servia-para-ensacar-arroz-e-restaurado-na-base-do-mutirao
-  autor: Mariana Lopes
+    </p> 
 
-  <br><br>
 
-  <img  id="dojo13" src="imagens/dojo13.png"><br><br>
+        </div>
 
-  Na UFMS na Cidade Universitária Universitário - Pioneiros, Campo Grande - MS ao lado da quadra de futebol.<br><br>
+ 
+  <div class="row">
+    <div data-wow-delay="0.2s" class="wow bounceInLeft">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="imagens/topo.jpg" target="_blank">
+          
+          <img src="imagens/topo.jpg" alt="Fachada dojo" style="width:100%">
+          
+          <div class="caption">
+            <p>Heiwa Dojo rua 13 Maio / fachada rua.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+       <div data-wow-delay="0.5s" class="wow bounceInDown center">
+      <div class="thumbnail">
+          <a href="imagens/dojo_interior.jpg" target="_blank">
+         
+          <img src="imagens/dojo_interior.jpg" alt="Visão Interna" style="width:100%;height: 90%">
+       
+          <div class="caption">
+            <p>Visão interna Dojo.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+     </div>
+     <div data-wow-delay="0.5s" class="wow bounceInRight">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="imagens/foto-tatame.jpg" target="_blank">
+         
+          <img src="imagens/foto-tatame.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Aula Heiwa Dojo</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
-  A estrutura conta com :
+ 
+      <div data-wow-delay="0.5s" class="wow bounceInUp">
+        <a id="video" href="imagens/video.mp4" target="_blank">
+          <video  controls class="embed-responsive-item">
+          <source src="imagens/video.mp4" type="video/mp4">
+             Your browser does not support HTML5 video.
+          
+          
+        </a>
+         </video><br>
+         <div class="legenda-video" ><p >Video Demonstrando uma aula!</p></div></div></div>
+    <div id="nav-histo" class="tab-pane fade">
+     
+        <div class="texto">
+  
+  <p>O início da Rua 13 de Maio, na altura do bairro São Francisco, exibe vários galpões imensos que há muitos anos eram considerados locais com papel importante na economia da cidade. Com o tempo, eles foram perdendo função e alguns acabaram <b>demolidos</b> e deram espaço a novas construções. Mas no início deste ano, um desses locais históricos teve valor reconhecido e foi <kbd>revitalizado</kbd>, ganhando nova cara e nova utilidade.
+
+  <p>Fechado desde o início da década de 1980, o galpão foi cedido a um grupo de praticantes de <kbd>Aikido</kbd>, que se juntaram para colocar a mão na massa e deixar o prédio com cara de novo. Logo na fachada é possível ver o antes e depois significante.</p>
+
+   <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="imagens/topo-antes.jpg" target="_blank">
+          <img src="imagens/topo-antes.jpg" alt="Fachada dojo antes da Reforma" style="width:100%">
+          <div class="caption">
+            <p>Fachada antes da revitalização</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="imagens/topo.jpg" target="_blank">
+          <img src="imagens/topo.jpg" alt="Fachada apos Reforma" style="width:100%;height: 90%">
+          <div class="caption">
+            <p>Reavitalização em andamento!</p>
+          </div>
+        </a>
+      </div>
+    </div>
+     <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="imagens/top-trablho.jpg" target="_blank">
+          <img src="imagens/top-trablho.jpg" alt="Mutirão" style="width:100%;height: 90%">
+          <div class="caption">
+            <p>Fachada apos a Revitalização</p>
+          </div>
+        </a>
+      </div>
+    </div>
+   
+  </div>
+
+  <p>A frente do galpão estava inteiramente pichada e com aspecto de abandono. Mas bastou uma lixadeira e algumas pessoas com braços fortes e disposição para que cada pedacinho do paredão de tijolos, agora à vista, fosse restaurado.</p>
+
+  <p><blockquote class="blockquote">"Fizemos questão de manter o estilo rústico e preservar a originalidade da obra, por isso que apenas lixamos os tijolos, não passamos nenhum produto a mais", garante Celso Farias, um dos voluntários na obra e também praticante de Aikido.</p></blockquote>
+
+  <p>As duas portas de ferro que compõem a entrada do galpão também estavam bastante deterioradas e ganharam apenas uma pintura na mesma cor da tinta que já estava quando receberam o espaço. Depois de tudo pronto, a fachada ganhou <kbd>símbolos do Aikido</kbd> feitos em madeira e que foram pendurados nos tijolos. Detalhes que fizeram toda a diferença na nova cara do galpão.</p>
+
+
+  <p><blockquote class="blockquote">"A ideia de preservar a arquitetura histórica tambem foi uma das preocupações, mantendo o elo com o passado", ressalta Fábio Yamasato, herdeiro do galpão.</p></blockquote>
+
+  <p>A restauração começou em janeiro deste ano e a parte de dentro também ganhou um banho de tinta nas paredes que estavam encardidas por causa da sujeira. O piso vermelho, que estava coberto pela poeira, também foi limpo e pintado de cinza. O resto, como estrutura, madeiras do teto e telhas foram mantidos os originais.</p>
+
+  <p>História - O galpão foi cedido pela família de <b>Fábio Yamasato</b>, que é praticante do Aikido. <blockquote class="blockquote">"Meu avô chamava-se Yoshimatsu Yamasato. Ele veio do Japão muito jovem e começou a vida trabalhando na lavoura. Com o desenvolvimento da economia e dos negócios, em meados dos anos 1960, ele e seus três irmãos montaram um armazém que beneficiava arroz. Descascavam e ensacavam o grão para venda por atacado", conta Fábio.</p></blockquote>
+
+  <p>Por volta dos anos 1980, também pelas mudanças econômicas, os negócios não iam bem e a família decidiu encerrar a empresa. Desde então, o antigo armazém, que fez história em Campo grande como tantos outros localizados na rua 13 de Maio, permaneceu fechado.</p>
+
+  <p>O avô de Fábio faleceu em 2014 e a família dele herdou o salão. <blockquote class="blockquote">"Em dezembro de 2016, conversando com os amigos que praticam Aikido e oferecemos o salão para instalação da nossa associação", explica Fábio.</p></blockquote>
+
+  <p>O Aikido é uma arte marcial japonesa que mistura defesa pessoal com filosofia oriental da paz e equilíbrio. E a parceria da família de Fábio com a associação dos praticante da arte marcial é uma forma de homenagear o patriarca.<blockquote class="blockquote"> "Na cultura japonesa, a lembrança, respeito e culto aos antepassados é muito presente. Então, acreditamos que a nova utilização do espaço é motivo de orgulho para meu avô, ele estaria muito feliz com este projeto se estivesse vivo".</blockquote>
+</p>
+
+   <blockquote class="blockquote">fonte: https://www.campograndenews.com.br/lado-b/arquitetura-23-08-2011-08/galpao-que-ha-decadas-servia-para-ensacar-arroz-e-restaurado-na-base-do-mutirao
+  <footer>autor: Mariana Lopes</footer>
+</blockquote>
+
+
+   <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="imagens/fotoantiga1.jpg" target="_blank">
+          <img src="imagens/fotoantiga1.jpg" alt="Foto Histórica" style="width:100%">
+          <div class="caption">
+            <p>Foto Historica do Galpão.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="imagens/fotoantiga2.jpg" target="_blank">
+          <img src="imagens/fotoantiga2.jpg" alt="Foto Histórica" style="width:100%;height: 90%">
+          <div class="caption">
+            <p>Foto Historica do Galpão</p>
+          </div>
+        </a>
+      </div>
+    </div>
+     <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="imagens/fabio.jpg" target="_blank">
+          <img src="imagens/fabio.png" alt="Fábio Yamasato, herdeiro do galpão" style="width:100%;height: 90%">
+          <div class="caption">
+            <p>Fábio Yamasato, herdeiro do galpão</p>
+          </div>
+        </a>
+      </div>
+    </div>
+   
+  </div>
+
+
+   
+   </div>  
+    </div>
+    <div id="nav-ufms" class="tab-pane fade">
+      <br><br>
+      <p>Na UFMS na Cidade Universitária Universitário - Pioneiros, Campo Grande - MS ao lado da quadra de futebol. Sob Responsabilidade do <b>Sensei Marcelo Bordigon 2º Dan.</p></b><br>
+
+  <p>A estrutura conta com :</p>
 
   <ul>
     <li>Amplo espaço para as práticas do Aikido com um Tatame em EVA</li>
@@ -456,23 +768,107 @@
     <li>Vestiários Masculino e Feminino</li>
 
 
-  </ul>
-  <img id="dojoufms" src="imagens/dojoufms.jpg"><br><br>
-
-  Escolha um local de sua preferência  e venha nos fazer uma visita.
-
-  </p>
-
-                  
-                        
-                </div>
-
+  </ul><br>
+ 
+   <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="imagens/ufms1.jpg" target="_blank">
+          <img src="imagens/ufms1.jpg" alt="Sensei Marcelo" style="width:100%">
+          <div class="caption">
+            <p>Sensei Marcelo demonstrando técnica com jô!.</p>
+          </div>
+        </a>
       </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="imagens/ufms2.jpg" target="_blank">
+          <img src="imagens/ufms2.jpg" alt="Senseis Paulo e Arnaldo" style="width:100%;height: 90%">
+          <div class="caption">
+            <p>Senseis Paulo Candéa e Arnaldo demonstrando técnica com Bokken!</p>
+          </div>
+        </a>
+      </div>
+    </div>
+     <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="imagens/ufms3.jpg" target="_blank">
+          <img src="imagens/ufms3.jpg" alt="Exame de faixas" style="width:100%;height: 90%">
+          <div class="caption">
+            <p>Exame de Faixas</p>
+          </div>
+        </a>
+      </div>
+    </div>
    
   </div>
 
+ 
+   <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="imagens/ufms4.jpg" target="_blank">
+          <img src="imagens/ufms4.jpg" alt="Demosntração de técnica dce imobilização" style="width:100%">
+          <div class="caption">
+            <p>Sensei Paulo Candéa e Fernando demonstrando técnica de Imobilização.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="imagens/ufms5.jpg" target="_blank">
+          <img src="imagens/ufms5.jpg" alt="Demonstração de tecnica" style="width:100%;height: 90%">
+          <div class="caption">
+            <p>Sensei William e Sempai Fábio Borges demonstrando técnica.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+     <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="imagens/ufms6.jpg" target="_blank">
+          <img src="imagens/ufms6.jpg" alt="Demonstração de tecnica" style="width:100%;height: 90%">
+          <div class="caption">
+            <p>Senseis Paulo Candéa e Marcelo demonstrando técnica.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+   
+  </div>
+  
+    </div>
+    <div id="nav-hor" class="tab-pane fade">
+     
+      
+   <div class="row">
+    <div class="col-md-12">
+      <div class="thumbnail">
+        <a href="imagens/horarios.jpg" target="_blank">
+          <img src="imagens/horarios.jpg" alt="Horarios" style="width:100%">
+          <div class="caption">
+            <p>Nossos Horários</p>
+          </div>
+        </a>
+      </div>
+    </div>
+   </div>
+  
+    </div>
+  </div>
+
+  
+</div>
+</div>
+
+
+
+   
+
     <div class="panel panel-primary" id="galeria">
-      <div class="panel-heading">Titulo</div>
+      <div class="panel-heading"><b><h1>Galeria</h1></b></div>
       <div class="panel-body">
 
      <ul class="nav nav-tabs">
@@ -506,7 +902,7 @@
   </div>
 
     <div class="panel panel-primary" id="convenios">
-      <div class="panel-heading">Titulo</div>
+      <div class="panel-heading"><b><h1>Convênios</h1></b></div>
       <div class="panel-body">
 
 
@@ -523,61 +919,49 @@
    
   </div>
 
-      <div class="panel panel-primary" id="per">
-      <div class="panel-heading">Titulo</div>
-      <div class="panel-body">
 
-
-       No Heiwa Dojo contamos com os seguintes convênios:
-
-       <ul>
-       <li>Sindicato dos Policiais Federais</li>
-       <li>Policiais Rodoviários Federais </li>
-       <li>Oficiais da PM</li>
-       </ul>
-
-
-      </div>
-   
-  </div>
 
       <div class="panel panel-primary" id="filiacao">
-      <div class="panel-heading">Titulo</div>
+      <div class="panel-heading"><p><h1>Filiação</h1></p></div>
       <div class="panel-body">
+<div class="texto">
 
+     <p> O Aikido Liga Brasil nasceu da necessidade de melhor organizar em território nacional as atividades das escolas de aikido do “Aikido Ligne Tissier”. E assim possibilitar a seus instrutores e alunos uma constante atualização técnica.</p>
 
-       No Heiwa Dojo contamos com os seguintes convênios:
+ 
 
-       <ul>
-       <li>Sindicato dos Policiais Federais</li>
-       <li>Policiais Rodoviários Federais </li>
-       <li>Oficiais da PM</li>
-       </ul>
+     <p>A orientação técnica do Aikido Liga Brasil é feito pelo professor francês Christian Tissier 8º dan, Shihan pelo Hombu Dojo no Japão.</p>
 
+ 
 
+<p>Temos como objetivo desenvolver um aikido de alto nível e, para atingir esse objetivo, organizamos e participamos de seminários internacionais com jovens mestres tais como Bruno Gonzalez, Fabrice Croizé, Nádia Korich, Pascal Guillemin e Stephane Goffin 2016. Esses seminários permitem que os alunos e os instrutores tenham a oportunidade de contato com um aikido de alto nível e uma constante atualização técnica. <p>
+
+</div>
       </div>
    
   </div>
 
       <div class="panel panel-primary" id="aeap">
-      <div class="panel-heading">Titulo</div>
+      <div class="panel-heading"><b><h1>Aikido e Atividades Policiais</h1></b></div>
       <div class="panel-body">
 
+<div class="texto">
 
-       No Heiwa Dojo contamos com os seguintes convênios:
-
-       <ul>
-       <li>Sindicato dos Policiais Federais</li>
-       <li>Policiais Rodoviários Federais </li>
-       <li>Oficiais da PM</li>
-       </ul>
-
-
+<ul>
+  <li>Contenção de suspeito</li>
+ <li>Uso de algemas</li>
+ <li>Condução de detido</li>
+ <li>Defesa contra agressões</li>
+ <li>Defesa contra tentativa de desarmamento</li>
+ <li>Defesa contra ataque com arma branca</li>
+ <li>Defesa contra ameaça com arma de fogo</li>
+</ul>
+</div>
       </div>
    
   </div>
 
-</div>
+
 
   <!-- Footer -->
   <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
@@ -592,7 +976,7 @@
         <h4>Heiwa Dojo</h4>
         <p><i class="fa fa-fw fa-map-marker"></i> Rua 13 de maio, 4145 - Campo Grande - MS</p>
         <p><i class="fa fa-fw fa-phone"></i> (67) 99113-8773</p>
-        <p><i class="fa fa-fw fa-envelope"></i> HeiwaAikiDojo@mimi.com.br</p>
+        <p><i class="fa fa-fw fa-envelope"></i> contato@aikidocampogrande.com.br</p>
         
         <br>
         <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
@@ -609,46 +993,6 @@
 
   <!-- End page content -->
 </div>
-
-<!-- Newsletter Modal -->
-<div id="newsletter" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
-    <div class="w3-container w3-white w3-center">
-      <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
-      <h2 class="w3-wide">NEWSLETTER</h2>
-      <p>Join our mailing list to receive updates on new arrivals and special offers.</p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
-      <button type="button" class="w3-button w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
-    </div>
-  </div>
-</div>
-
-<script>
-// Accordion 
-function myAccFunc() {
-    var x = document.getElementById("demoAcc");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
-// Click on the "Jeans" link on page load to open the accordion for demo purposes
-document.getElementById("myBtn").click();
-
-
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-</script>
 
 </body>
 </html>

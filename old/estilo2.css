@@ -1,0 +1,584 @@
+body{
+
+	margin:0;
+	padding: 0;
+}
+
+.container {
+
+	padding: 0;
+	margin: 0;
+
+
+	
+	
+
+
+}
+.topo1 {
+
+width: 100%;
+height: 222px;
+float: left;
+margin-left: 200px;
+
+
+}
+
+
+
+.menu-mini {
+width: 140px;
+height: 90px;
+position: fixed;
+visibility: hidden;
+
+
+
+
+}
+
+.menu-mini img{
+	
+	width: 90px;
+    height: 90px;
+}
+
+.menu {
+background-color: #353535;
+text-transform: uppercase;	
+width:200px;
+height:650px;
+
+position: fixed;
+
+
+
+}
+#img-li {
+
+	background-color: silver;
+	padding: 0;
+}
+
+.menu a{
+
+	text-decoration: none;
+}
+
+.menu ul , 
+.menu li{
+
+	list-style:  none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	border-style: solid;
+    border-width: 1px;
+    color: white;
+	padding: 10px;
+	border-color: 
+}
+
+.menu li:hover{
+	background-color: silver;
+	color: white;
+	font-weight: bold;
+}
+
+.menu-mini:hover .menu {
+	visibility: visible;
+}
+
+.conteudo {
+
+	height: 100%;
+	width: 100%;
+}
+
+.banner {
+
+    height: 250px;
+    background-color: #347aba;
+    background-image: url("../imagens/jesien-gory-galezie-pagorek-drzewo.jpg");
+    background-repeat: no-repeat;
+   
+
+
+}
+
+
+.banneresquerda {
+		
+		float: left;
+		margin-left: 300px;
+	
+	}
+
+
+
+	.bannerdireita {
+		
+		float: left;
+
+		
+	}
+
+   .bannerdireita img {
+   
+
+   	width: 200px;
+   	height: 200px;
+   
+  
+   }
+
+.frase1 {
+		
+	    font-size: 48px;
+		color: red;
+		margin-top: 60px;
+		
+}
+
+.frase2 {
+	
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.conteudointerno {
+	width: 100%;
+	height: 600px;
+	margin: auto;
+
+}
+
+.slideshow {
+	height: 600px;
+	background-color: #CCC;
+	overflow: hidden;
+	margin-bottom:20px;
+	margin-left: 200px;
+	
+	
+
+}
+
+.slideshowarea {
+    background-color: #DDD;
+	height: 600px;
+	width: 1000000px;
+	transition: all 3s;
+	margin-left: 200px;
+	
+	
+
+
+}
+
+
+.slide {
+	width: 100%;
+	height: 600px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-left: 200px;
+	
+}
+
+.slideinfo {
+	height: 70px;
+	background-image: url('../images/slideshow_bg.png');
+	background-size: auto 70px;  
+	margin-top: 400px;
+}
+
+.slideinfo_titulo {
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.slideinfo_subtitulo {
+	font-size: 13px;
+	color: white;
+	padding-left: 10px;
+}
+
+.slidebolinhas {
+
+	position: absolute;
+	width: 200px;
+	height: 20px;
+	
+}
+
+.bolinha {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right: 5px;
+	cursor:pointer;
+	background-color: #CCC;
+	border-radius: 10px;
+
+}
+
+.dinamico {
+	width: 100%;
+
+	margin-top: 5px;
+	border-style: solid;
+    border-width: 1px;
+    border-radius: 40px;
+    padding: 50px;
+	float: left;
+	text-align: justify;
+	margin-bottom: 5px;
+	margin-left: 200px;
+	
+	
+	
+}
+
+.dinamico2{
+	width: 100%;
+	margin-top: 10px;
+	border-style: solid;
+    border-width: 1px;
+    border-radius: 40px;
+    padding: 50px;
+	
+	text-align: justify;
+	margin-bottom: 5px;
+	float: left;
+	margin-left: 200px;
+}
+
+.dinamico3{
+	width: 100%;
+	
+	margin-top: 10px;
+	border-style: solid;
+    border-width: 1px;
+    border-radius: 40px;
+    padding: 50px;
+	text-align: justify;
+	margin-bottom: 5px;
+	margin-left: 200px;
+	float: left;
+}
+
+.prog img {
+
+	border-width: 1px;
+	border-style: solid;
+	
+	align-items: center;
+
+}
+
+.dinamico4{
+	width: 100%;
+	margin-top: 10px;
+	border-style: solid;
+    border-width: 1px;
+    border-radius: 40px;
+    padding: 50px;
+	height: 100%;
+	text-align: justify;
+	margin-bottom: 5px;
+	margin-left: 200px;
+	float: left;
+}
+
+.dinamico5{
+	width: 100%;
+	margin-top: 20px;
+	border-style: solid;
+    border-width: 1px;
+    border-radius: 40px;
+    padding: 50px;
+	height: 350px;
+	text-align: justify;
+	margin-bottom: 5px;
+	margin-left: 200px;
+	float: left;
+}
+
+.dinamico6{
+	width: 100%;
+	margin-top: 10px;
+	border-style: solid;
+    border-width: 1px;
+    border-radius: 40px;
+    padding: 50px;
+	height: 100%;
+	text-align: justify;
+	margin-bottom: 5px;
+	margin-left: 200px;
+	float: left;
+}
+
+.texto {
+	
+
+	text-align: justify; 
+	font-family: Belgrano, serif;
+
+	
+}
+
+.texto p {
+    
+}
+
+.texto a:link{
+	color: blue;
+}
+
+.texto a:visited{
+	color: red;
+}
+
+.texto img {
+
+	width: 100px;
+	height: 100px;
+
+}
+#dojo13  {
+
+height: 300px;
+width: 300px;
+object-fit: 250px;
+border-radius: 30px;
+
+}
+
+.ifoto{
+	
+	float: left;
+	width: 300px;
+}
+.ifoto img{
+
+	margin-top: 10px;
+	height: 300px;
+	width: 180px;
+
+}
+.idesc{
+
+	float: left;
+	width: 400px;
+	margin-top: 30px;
+}
+
+.icaixa{
+	width: 100%;
+	height: 1950px;
+	
+}
+
+
+
+.hri{
+
+	width: 100%;
+	float: left;
+}
+
+.imgdown{
+float: left;
+/*background-color: red;*/
+width: 100px;
+
+}
+
+
+.desc{
+float: left;
+/*background-color: green;*/
+width: 600px;
+margin-left: 10px;
+}
+
+.dowarq{
+float: left;
+/*background-color: gray;*/
+margin-top: 10px;
+margin-right: 700px;
+width: 100%
+
+}
+
+.titulossec {
+
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#dojoufms {
+
+height: 300px;
+width: 300px;
+object-fit: 250px;
+border-radius: 30px;
+
+
+}
+
+#seminario {
+
+	float: left;
+	width: 200px;
+	height: 300px;
+	padding-right: 10px;
+}
+
+.subtitulo {
+
+	font-size: 8px;
+	font-style: italic; 
+	margin-top:0;
+}
+
+
+.rodape  {
+	float: left;
+	background-color: #353535;
+	height: 380px;
+	text-align: center;
+	color: #ffffff;
+	width: 100%;
+	margin-left: 200px;
+	
+	
+}
+
+.mapa {
+
+float: left;
+margin: 5px;
+
+
+
+}
+
+
+.info{
+
+margin-left: 20px;
+
+}
+
+.info ul {
+
+list-style: none;
+text-align: left;
+float: left;
+
+}
+
+
+.dvtopo{
+
+	float: right;
+
+}
+
+.vtopo {
+
+position: absolute;
+margin-left: 50px;
+margin-top: -50px;
+
+}
+
+.info img{
+
+	float: left;
+	padding-right: 10px;
+}
+
+
+.linha-vertical {
+	float: left;
+	margin-left: 10px;
+    height: 360px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+}
+
+.fim {
+
+	float: left;
+	height: 115px;
+	width: 100%;
+    margin-top: -30px;
+	background-color: #353535;
+}
+
+
+
+@media only screen and (min-width:1189px) and (max-width:1418px) {
+
+	
+	.menu {
+		visibility: hidden;
+	}
+
+	.menu-mini{
+		visibility: visible;
+	}
+	.bolinha {
+		visibility: hidden;
+	}
+	}
+
+
+
+@media only screen and (min-width:600px) and (max-width:1185px) {
+
+	.slide,
+	.banneresquerda,
+	.menu {
+		visibility: hidden;
+	}
+
+	.menu-mini{
+		visibility: visible;
+	}
+		.dinamico{
+		margin-top:35px;
+	}
+	}
+
+
+@media only screen and (min-width:600px) and (max-width:1003px) {
+
+	.slide,
+	.rodape,
+	.banneresquerda,
+	.menu {
+		display: none;
+	}
+
+	.dinamico{
+		margin-top:35px;
+		padding: 0;
+	}
+
+	.bannerdireita{
+		float: right;
+	}
+
+
+	}

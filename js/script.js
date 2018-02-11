@@ -1,34 +1,38 @@
-var slideItem=0;
 
-window.onload = function() {
-
-setInterval(passarSlide , 5000);
-	
-	var slidewidth = document.getElementById("slideshow").offsetWidth;
-	var objs = document.getElementsByClassName("slide");
-	for(var i in objs) {
-		  objs[i].style.width = slidewidth+"px";
-	}
+function openNav() {
+    document.getElementById("mySidenav").style.width = "40%";
 }
 
-function passarSlide(){
-
-var slidewidth = document.getElementById("slideshow").offsetWidth;
-
-if (slideItem >=3){
-
-slideItem =0;
-}else {
-	slideItem++;
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
 }
 
-document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+ (slidewidth * slideItem)+"px";
 
+// Accordion 
+function myAccFunc() {
+    var x = document.getElementById("demoAcc");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
 }
- function mudarSlide(pos){
- 	slideItem=pos;
- 	var slidewidth = document.getElementById("slideshow").offsetWidth;
-    document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+ (slidewidth * slideItem)+"px";
- }
 
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
  
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+
+
+
