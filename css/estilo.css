@@ -48,7 +48,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
 #img-tab1 {
 
-	margin-left: 250px;
+	margin: 0 auto;
 }
 
 #img-tab3 {
@@ -88,7 +88,7 @@ margin: 30px;
 #myCarousel img {
 	margin: auto;
 	 height: 600px;
-	 width:948px;
+	width:948px;
 
 }
 
@@ -145,7 +145,7 @@ margin-top: 10px;
 
 #video {
 
-	margin-left: 130px;
+	margin: 0 auto;
 }
 .ifoto img{
 	
@@ -169,7 +169,7 @@ margin-top: 10px;
 
 #prog{
 
-	margin-left: 50px;
+	margin: 0 auto;
 }
 
 #arni{
@@ -181,9 +181,9 @@ margin-top: 10px;
 }
 #semi-dani {
 
-	width: 500px;
-	height: 800px;
-	margin-left: 200px;
+	
+	height: auto;
+	margin: 0 auto;
 	margin-top: 50px;
 }
 
@@ -276,3 +276,24 @@ border-radius: 30px;
 	margin-top:0;
 }
 
+@media only screen and (min-width:200px) and (max-width:550px) {
+
+	#myCarousel , .banner{
+		display: none;
+	}
+	
+  .panel-group {
+  	margin-top: 10px;
+
+  }
+
+.w3-bar {
+	position: unset;
+
+}
+
+.w3-hide-large{
+	margin-top: 0px;
+}
+
+	 }
