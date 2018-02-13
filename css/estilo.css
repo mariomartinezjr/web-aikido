@@ -2,6 +2,29 @@
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+.fadeIn {
+-webkit-animation: fadeIn 3s ease-in-out;
+-moz-animation: fadeIn 3s ease-in-out;
+-o-animation: fadeIn 3s ease-in-out;
+animation: fadeIn 3s ease-in-out;
+}
 
 #logo {
 
@@ -49,6 +72,8 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 #img-tab1 {
 
 	margin: 0 auto;
+	width: 300px;
+	height: auto;
 }
 
 #img-tab3 {
@@ -143,10 +168,7 @@ margin-left: 350px;
 margin-top: 10px;
 }
 
-#video {
 
-	margin: 0 auto;
-}
 .ifoto img{
 	
 	margin-left: 40px;
@@ -179,6 +201,8 @@ margin-top: 10px;
 	height:450px;
 
 }
+
+
 #semi-dani {
 
 	
@@ -212,6 +236,12 @@ margin-top: 10px;
 
 text-decoration: none;
 
+}
+
+video {
+
+	max-width: 600px;
+	margin: 0 auto;
 }
 
 .hri{
