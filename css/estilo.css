@@ -49,11 +49,6 @@ animation: fadeIn 3s ease-in-out;
 	font-weight: bold;
 }
 
-/*.panel-group{
-
-	margin-left: 15px;
-}
-*/
 .banner {
 	
     height: 250px;
@@ -317,13 +312,39 @@ border-radius: 30px;
 
   }
 
+  .texto{
+  	margin: 5px; 
+  }
+
 .w3-bar {
 	position: unset;
 
+}
+#home {
+	margin-top: -11px;
 }
 
 .w3-hide-large{
 	margin-top: 0px;
 }
+
+.duas-colunas {
+-webkit-column-count: 2; /* Chrome, Safari, Opera */
+-moz-column-count: 2; /* Firefox */
+column-count: 1;
+-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+-moz-column-gap: 40px; /* Firefox */
+ column-gap: 40px;
+-webkit-column-rule: 1px solid #cccccc; /* Chrome, Safari, Opera */
+-moz-column-rule: 1px solid #cccccc; /* Firefox */
+column-rule: 1px solid #cccccc;
+ -webkit-column-span: all; /* Chrome, Safari, Opera */
+ column-span: all;
+-webkit-column-width: ;/* Chrome, Safari, Opera */
+-moz-column-width: ;/* Firefox */
+column-width: ;
+margin: 30px;
+}
+
 
 	 }
